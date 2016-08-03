@@ -35,11 +35,28 @@ $(document).ready(function(){
 		rightAnswer = 0;
 		wrongAnswer = 0;
 		noAnswer = 0;
+		
 		$('#start').append('<b>Start Game</b>');
+		
+		$('#start').click(function() {
+			$(this).remove();
+			
+			// function beginTrivia() {
+				$('#questions').append('questions.MichaelCorleonesOldestBrother');
+				console.log(questions.MichaelCorleonesOldestBrother);
+				$('#answers').append()
+			// };
+		})
+
 
 	};
 
 	initializeTrivia ();
+
+	
+
+	
+
 
 
 });
