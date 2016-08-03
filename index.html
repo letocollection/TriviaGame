@@ -14,11 +14,78 @@
 		
 	</head>
 
-	<body>	
+	<body>
+		<div id="timer"></div>	
 		<button type="button" id="start"></button>
-		<!-- <div id="start"></div> -->
-		<div id="questions"></div>
-		<div id="answers"></div>
+			
+		<p class="question">1. Who is Michael Corleone's oldest Brother?</p>
+
+		<ul>
+			<input type="radio" name="q1" value="0"><label>Johnny Corleone</label><br/>
+			<input type="radio" name="q1" value="0"><label>Paulie Corleone</label><br/>
+			<input type="radio" name="q1" value="1"><label id="correct1">Santino Corleone</label><br/>
+			<input type="radio" name="q1" value="0"><label>Alfredo Corleone</label><br/>
+		</ul>
+
+		<p class="question">2. Who was Vito Corleones closest friend in Italy?</p>
+
+		<ul>
+			<input type="radio" name="q2" value="1"><label id="correct2">Don Tommasino</label><br/>
+			<input type="radio" name="q2" value="0"><label>Vincenzo Pentangeli</label><br/>
+			<input type="radio" name="q2" value="0"><label>Salvatore Tessio</label><br/>
+			<input type="radio" name="q2" value="0"><label>Hyman Roth</label><br/>
+		</ul>
+
+		<p class="question">3. Who was the family member who betrayed the Corleones by setting up Santino's murder?</p>
+
+		<ul>
+			<input type="radio" name="q3" value="0"><label>Johnny Corleone</label><br/>
+			<input type="radio" name="q3" value="1"><label id="correct3">Carlo Ricci</label><br/>
+			<input type="radio" name="q3" value="0"><label>Tom Hagen</label><br/>
+			<input type="radio" name="q3" value="0"><label>Emilio Barzini</label><br/>
+		</ul>
+
+		<p class="question">4. What was the name of Santino's illigitimate son in Godfather 3?</p>
+
+		<ul>
+			<input type="radio" name="q4" value="0"><label>Johnny Corleone</label><br/>
+			<input type="radio" name="q4" value="1"><label id="correct4">Vincent Mancini</label><br/>
+			<input type="radio" name="q4" value="0"><label>Fredo Corleone</label><br/>
+			<input type="radio" name="q4" value="0"><label>Joey Zasa</label><br/>
+		</ul>
+
+		<p class="question">5. What was the name of the third Godfather?</p>
+
+		<ul>
+			<input type="radio" name="q5" value="1"><label id="correct5">Vincent Mancini</label><br/>
+			<input type="radio" name="q5" value="0"><label>Anthony Corleone</label><br/>
+			<input type="radio" name="q5" value="0"><label>Lithio Lucchessi</label><br/>
+			<input type="radio" name="q5" value="0"><label>Alfredo Corleone</label><br/>
+		</ul>
+
+		<p class="question">6. What was the name of the Las Vegas hotel owner who was killed?</p>
+
+		<ul>
+			<input type="radio" name="q6" value="0"><label>Virgil Sollozzo</label><br/>
+			<input type="radio" name="q6" value="0"><label>Peter Clemenza</label><br/>
+			<input type="radio" name="q6" value="0"><label>Bugsy Siegel</label><br/>
+			<input type="radio" name="q6" value="1"><label id="correct6">Moe Green</label><br/>
+		</ul>
+
+		<p class="question">7. Who was the gangster in charge of the Corleones old territory in the third episode?</p>
+
+		<ul>
+			<input type="radio" name="q7" value="1"><label id="correct7">Joey Zasa</label><br/>
+			<input type="radio" name="q7" value="0"><label>Phillip Tattaglia</label><br/>
+			<input type="radio" name="q7" value="0"><label>Johnny Fontaine</label><br/>
+			<input type="radio" name="q7" value="0"><label>Albert Anastasia</label><br/>
+		</ul>
+
+		<div class="submitter">
+   			 <input class="quizSubmit" id="submitButton" type="submit" value="Submit" />
+  		</div>
+
+
 
 		<script type="text/javascript" src="assets/javascript/app.js"></script>
 
